@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    lazy var cancelButton: UIButton = {
+        let button = UIButton()
+        button.setBackgroundImage(UIImage(named: "cancel"), for: .normal)
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
