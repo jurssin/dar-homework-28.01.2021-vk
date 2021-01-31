@@ -21,6 +21,7 @@ class PrimaryView: UIView {
     lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 22)
+        label.textColor = .black
         label.textAlignment = .center
         return label
     }()
